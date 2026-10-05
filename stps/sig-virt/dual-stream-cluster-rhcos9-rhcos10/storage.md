@@ -243,11 +243,23 @@ The following conditions must be met before testing can begin:
 
 ### **III. Test Scenarios & Traceability**
 
+#### **Hotplug Storage Migration (CNV-77018)**
+
 - **[CNV-77018]** — As a cluster admin, I want VMs with hotplugged storage to live migrate without data loss or corruption from RHCOS9 to RHCOS10 nodes on a dual-stream cluster.
   - *Test Tier:* Tier 2
   - *Priority:* P0
 
 - **[CNV-77018]** — As a cluster admin, I want VMs with hotplugged storage to live migrate without data loss or corruption from RHCOS10 to RHCOS9 nodes on a dual-stream cluster.
+  - *Test Tier:* Tier 2
+  - *Priority:* P0
+
+#### **Snapshot/Restore Across RHCOS Versions (CNV-96772)**
+
+- **[CNV-96772]** — As a cluster admin, I want to snapshot a VM on RHCOS 9 and restore it on RHCOS 10 without data loss on a dual-stream cluster.
+  - *Test Tier:* Tier 2
+  - *Priority:* P0
+
+- **[CNV-96772]** — As a cluster admin, I want to snapshot a VM on RHCOS 10 and restore it on RHCOS 9 without data loss on a dual-stream cluster.
   - *Test Tier:* Tier 2
   - *Priority:* P0
 
