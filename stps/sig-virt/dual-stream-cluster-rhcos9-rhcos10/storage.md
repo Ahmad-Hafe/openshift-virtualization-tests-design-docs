@@ -24,7 +24,7 @@
 
 Starting with OCP 4.22, OpenShift Virtualization supports dual-stream clusters running both RHCOS9 and RHCOS10 worker nodes simultaneously.
 
-**Note:** this STP is specific to the OCP 4.22 release cycle and should be reviewed when RHCOS9 or RHCOS10 support changes.
+**Note:** this STP covers storage testing for dual-stream clusters starting from OCP 4.22 and should be reviewed when RHCOS9 or RHCOS10 support changes.
 
 Customers can upgrade their clusters from RHCOS9 to RHCOS10 nodes gradually. VM live migration with hotplugged volume must work correctly across node types without data loss or corruption.
 
@@ -162,7 +162,7 @@ None — reviewed and confirmed that no test limitations apply for this release.
 - **Cluster Topology:**
   - Dual-stream cluster with at least one RHCOS9 and one RHCOS10 worker node - for migration scenarios with hotplugged storage
 
-- **OCP & OpenShift Virtualization Version(s):** OCP 4.22 with OpenShift Virtualization 4.22
+- **OCP & OpenShift Virtualization Version(s):** OCP 4.22+ with OpenShift Virtualization 4.22+
 
 - **CPU Virtualization:** VT-x (Intel) or AMD-V enabled
 
