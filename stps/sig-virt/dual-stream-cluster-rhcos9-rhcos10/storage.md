@@ -36,6 +36,8 @@ Customers can upgrade their clusters from RHCOS9 to RHCOS10 nodes gradually. VM 
 
 This STP covers storage testing for dual-stream clusters: hotplug storage operations, live migration with attached volumes, and snapshot/restore across RHCOS9 and RHCOS10 nodes.
 
+
+
 ---
 
 ### **I. Motivation and Requirements Review (QE Review Guidelines)**
