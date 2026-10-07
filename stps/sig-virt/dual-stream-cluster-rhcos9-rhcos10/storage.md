@@ -60,7 +60,7 @@ technology, and testability before formal test planning.
 - [x] **Acceptance Criteria**
   - *List the acceptance criteria:*
     - VM with hotplugged storage volume live migrates successfully in both directions (RHCOS9 ↔ RHCOS10) without data loss or corruption.
-    - VM snapshots created on RHCOS9 can be restored on RHCOS10 and vice versa without data loss.
+    - VM snapshots created on RHCOS9 can be restored on RHCOS10 and vice versa without data loss or corruption.
   - *Note any gaps or missing criteria:* None
 
 - [x] **Non-Functional Requirements (NFRs)**
@@ -105,7 +105,7 @@ This STP serves as the **overall roadmap for testing**, detailing the scope, app
 **Testing Goals**
 
 - **[P0]** Verify VM with hotplugged storage volume live migrates successfully between RHCOS9 and RHCOS10 nodes in both directions without data loss or corruption.
-- **[P0]** Verify VM snapshots created on RHCOS9 can be restored on RHCOS10 and vice versa without data loss on a dual-stream cluster.
+- **[P0]** Verify VM snapshots created on RHCOS9 can be restored on RHCOS10 and vice versa without data loss or corruption on a dual-stream cluster.
 
 **Out of Scope (Testing Scope Exclusions)**
 
@@ -264,11 +264,11 @@ The following conditions must be met before testing can begin:
 
 #### **Snapshot/Restore Across RHCOS Versions (CNV-96772)**
 
-- **[CNV-96772]** — As a cluster admin, I want to snapshot a VM on RHCOS 9 and restore it on RHCOS 10 without data loss on a dual-stream cluster.
+- **[CNV-96772]** — As a cluster admin, I want to snapshot a VM on RHCOS 9 and restore it on RHCOS 10 without data loss or corruption on a dual-stream cluster.
   - *Test Tier:* Tier 2
   - *Priority:* P0
 
-- **[CNV-96772]** — As a cluster admin, I want to snapshot a VM on RHCOS 10 and restore it on RHCOS 9 without data loss on a dual-stream cluster.
+- **[CNV-96772]** — As a cluster admin, I want to snapshot a VM on RHCOS 10 and restore it on RHCOS 9 without data loss or corruption on a dual-stream cluster.
   - *Test Tier:* Tier 2
   - *Priority:* P0
 
