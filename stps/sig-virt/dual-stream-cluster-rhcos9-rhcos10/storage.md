@@ -4,14 +4,18 @@
 
 ### **Metadata & Tracking**
 
-- **Enhancement(s):** https://redhat.atlassian.net/browse/CNV-77018 - no VEP for this feature.
+- **Enhancement(s):**
+  - https://redhat.atlassian.net/browse/CNV-77018 - no VEP for this feature.
+  - https://redhat.atlassian.net/browse/CNV-85250
 - **Feature Tracking:** https://redhat.atlassian.net/browse/VIRTSTRAT-83
-- **Epic Tracking:** https://redhat.atlassian.net/browse/CNV-77018
+- **Epic Tracking:**
+  - https://redhat.atlassian.net/browse/CNV-77018
+  - https://redhat.atlassian.net/browse/CNV-85250
 - **Feature Maturity:**
   - DP: N/A
   - TP: v4.22
   - GA: v5.0
-- **QE Owner(s):** Kate Shvaika (kshvaika@redhat.com)
+- **QE Owner(s):** Kate Shvaika (kshvaika@redhat.com), Ahmad Hafe (ahafe@redhat.com)
 - **Owning SIG:** sig-virt
 - **Participating SIGs:** sig-virt, sig-storage
 
@@ -19,6 +23,8 @@
 - RHCOS = Red Hat CoreOS, the immutable container-optimized OS used for OpenShift worker nodes.
 - dual-stream cluster = a cluster running both RHCOS9 and RHCOS10 worker nodes simultaneously.
 - hotplug = attaching a storage volume (PVC) to a running VM without restart.
+- snapshot = a point-in-time copy of a VM's disk state, capturing the VM's data and filesystem; snapshots can be created while the VM is running or stopped.
+- restore = the process of recovering a VM from a snapshot, returning it to the state captured at snapshot time.
 
 ### **Feature Overview**
 
