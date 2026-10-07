@@ -55,7 +55,7 @@ technology, and testability before formal test planning.
     - Snapshot a VM on RHCOS 9 and restore it on RHCOS 10 (or vice versa) without data loss.
 
 - [x] **Testability**
-  - *Note any requirements that are unclear or untestable:* All requirements are testable. Tests will cover VM migration with hotplugged storage and snapshot/restore operations across RHCOS9 and RHCOS10 nodes.
+  - *Note any requirements that are unclear or untestable:* All requirements are testable. Tests will cover VM migration with hotplugged storage and snapshot/restore operations across RHCOS9 and RHCOS10 nodes. New automated tests will be added to cover hotplug storage migration and snapshot/restore scenarios across RHCOS9 and RHCOS10 nodes.
 
 - [x] **Acceptance Criteria**
   - *List the acceptance criteria:*
