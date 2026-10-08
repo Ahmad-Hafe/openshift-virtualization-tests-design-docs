@@ -254,7 +254,7 @@ The following conditions must be met before testing can begin:
 
 ### **III. Test Scenarios & Traceability**
 
-#### **Hotplug Storage Migration (CNV-77018)**
+#### **VM live migration with hotplugged storage (CNV-96771)**
 
 - **[CNV-77018]** — As a cluster admin, I want VMs with hotplugged storage to live migrate without data loss or corruption from RHCOS9 to RHCOS10 nodes on a dual-stream cluster.
   - *Test Tier:* Tier 2
